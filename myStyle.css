@@ -15,7 +15,7 @@
     border: 1px solid brown;
 }
 
-/* =========================================
+/* 
    2. עיצוב פתיח (Header) וסרגל ניווט בחום
    ========================================= */
 header {
@@ -81,11 +81,11 @@ header nav ul li a.active {
    עיצוב תת-התפריט הנפתח (Dropdown Submenu)
    ========================================= */
 header nav ul li ul {
-    display: none; 
+    display: none;
     position: absolute;
-    top: 100%; 
-    right: 0;  
-    width: 180px; 
+    top: 100%;
+    right: 0;
+    width: 180px;
     z-index: 100;
     list-style: none;
     padding: 0;
@@ -199,7 +199,7 @@ header nav ul li ul li a.notActive:hover {
     background-color: white;
 }
 
-.featured-destinations > h2 { 
+.featured-destinations > h2 {
     font-size: 25px;
     font-weight: 700;
     color: brown;
@@ -225,6 +225,12 @@ header nav ul li ul li a.notActive:hover {
     background-color: white;
     text-align: right;
     border-radius: 6px;
+}
+
+/* תיקון רוחב לקישור שעוטף את התמונה בתוך הכרטיסייה */
+.card > a {
+    display: block;
+    width: 100%;
 }
 
 .cards-container .card:nth-child(odd) {
@@ -600,7 +606,7 @@ footer a:hover {
     background-color: white;
     padding: 30px;
     border-radius: 8px;
-    background-image: url('/flowers.png');
+    background-image: url('flowers.png');
     background-size: cover;
 }
 
