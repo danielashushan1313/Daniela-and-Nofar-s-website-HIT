@@ -143,7 +143,7 @@ header nav ul li ul li a.notActive:hover {
 
 /* באנר ראשי (Hero Section)*/
 .hero-section {
-    background-image: url('/backgroundd.png');
+    background-image: url('backgroundd.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
